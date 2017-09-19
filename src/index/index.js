@@ -4,10 +4,10 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-    articleSave: false,
-    aa: 'abc'
-  },
+// state: {
+//   articleSave: false,
+//   aa: 'abc'
+// },
   getters: {
     toUp (state) {
       return state.aa.toUpperCase()

@@ -34,10 +34,10 @@
       <span class="SC" v-if="isSC">{{ issc ? '收藏成功' : '取消收藏' }}</span>
     </transition>
     
-    {{ this.$store.state.articleSave }}
+    <!--{{ this.$store.state.articleSave }}
     {{ this.$store.state.aa }}
     {{ aa }}
-    <button @click='this.$store.$commit("changeSave")'>qiehuan</button>
+    <button @click='this.$store.$commit("changeSave")'>qiehuan</button>-->
   </div>
 </template>
 
